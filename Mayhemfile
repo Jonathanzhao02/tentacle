@@ -1,0 +1,6 @@
+project: tentacle-fuzz
+target: yamux_frame_codec
+
+cmds:
+ - cmd: /yamux_frame_codec
+

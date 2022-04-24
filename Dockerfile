@@ -11,7 +11,7 @@ WORKDIR /tentacle
 
 ## Build instructions
 WORKDIR fuzz
-RUN cargo build --bin yamux_frame_codec
+RUN cargo build --bin yamux_frame_codec --release
 
 # Package Stage
 FROM --platform=linux/amd64 rust:latest

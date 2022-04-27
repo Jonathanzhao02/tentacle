@@ -1,6 +1,6 @@
 project: tentacle-fuzz
-target: secio_crypto_encrypt_cipher
+target: yamux_frame_codec
 
 cmds:
- - cmd: /secio_crypto_encrypt_cipher
+ - cmd: /yamux_frame_codec
 

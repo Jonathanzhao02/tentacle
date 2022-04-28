@@ -1,6 +1,6 @@
 project: tentacle-fuzz
-target: secio_crypto_encrypt_cipher
+target: secio_crypto_decrypt_cipher
 
 cmds:
- - cmd: /secio_crypto_encrypt_cipher
+ - cmd: /secio_crypto_decrypt_cipher
 

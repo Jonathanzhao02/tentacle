@@ -21,6 +21,6 @@ RUN cargo +nightly rustc --bin secio_crypto_encrypt_cipher -- \
 FROM --platform=linux/amd64 ubuntu:20.04
 
 ## TODO: Change <Path in Builder Stage>
-RUN apt-get update && apt-get install libssl-dev
+RUN apt-get update && apt-get install -y libssl-dev
 COPY --from=builder /tentacle/fuzz/target/debug/secio_crypto_encrypt_cipher /
 
